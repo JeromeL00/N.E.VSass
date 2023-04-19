@@ -1,0 +1,22 @@
+.header {
+    border-bottom: 1px solid $clr-white;
+    padding: 2rem 0;
+    &__logo {
+        z-index: 1;
+        cursor: pointer;
+        h2 span {
+            color: $clr-primary;
+        }
+    }
+    nav {
+        z-index: 1;
+    }
+    nav ul li a{
+        color: $clr-white;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    nav ul {
+        gap:2rem;
+    }
+}
